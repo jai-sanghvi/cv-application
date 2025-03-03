@@ -1,0 +1,51 @@
+.card {
+  box-shadow: 0px 0px 10px 5px rgba(150, 150, 150, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.card:not(:last-of-type) {
+  margin-bottom: 25px;
+}
+
+.card h2 {
+  margin-block: 0 20px;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card form details summary {
+  padding-block: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.card form details:first-of-type summary {
+  padding-top: 0;
+}
+
+form button {
+  font:inherit;
+  padding-block: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+form button:hover, form button:focus {
+  box-shadow: 0px 0px 10px -2px inset rgba(0, 0, 0, 0.1);
+}
+
+button.delete-button {
+  padding-inline: 15px;
+  margin-bottom: 10px;
+}
+
+button.add-button {
+  margin-top: 10px;
+}
