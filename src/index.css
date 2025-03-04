@@ -10,9 +10,6 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   background-color: var(--bg-color);
+  column-gap: 50px;
   padding: 20px;
-}
-
-#cv {
-  grid-area: 1 / 2 / 3 / 3;
 }
